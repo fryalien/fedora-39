@@ -9,7 +9,7 @@ sh ./scripts/fresh-install.sh  | tee -a "$log_file"
 sh ./scripts/virtualbox.sh | tee -a "$log_file"
 
 # INSTALL ALL SOFTWARE
-#sh ~/INSTALL/software-laptop.sh | tee -a "$log_file"
-sh ./scripts/software-vm.sh | tee -a "$log_file"
+sh ~/INSTALL/software-laptop.sh | tee -a "$log_file"
+#sh ./scripts/software-vm.sh | tee -a "$log_file"
 #sh ~/INSTALL/software-desktop-kde.sh | tee -a "$log_file"
 #sh ~/INSTALL/software-i3.sh | tee -a "$log_file"
