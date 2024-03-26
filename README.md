@@ -16,6 +16,8 @@ cd fedora-29
 
 In start script enter the right user.
 
+Also choose which software to install.
+
 In the virtual-box script change the version of virtualbox download files.
 
 ```
