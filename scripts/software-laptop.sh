@@ -1,118 +1,118 @@
 #!/bin/sh
 
-sudo dnf install -y akregator
-sudo dnf install -y arianna
-sudo dnf install -y arj
-sudo dnf install -y arp-scan
-sudo dnf install -y audacious
-sudo dnf install -y bat
-sudo dnf install -y bleachbit
-sudo dnf install -y btop
-sudo dnf install -y calibre
-sudo dnf install -y dmenu
-sudo dnf install -y dolphin
-sudo dnf install -y dracut
-sudo dnf install -y dunst
-sudo dnf install -y duplicity
-sudo dnf install -y exa
-sudo dnf install -y exif
-sudo dnf install -y feh
-sudo dnf install -y ffmpeg
-sudo dnf install -y ffmpeg-devel
-sudo dnf install -y flameshot
-sudo dnf install -y flowblade
-sudo dnf install -y foliate
-sudo dnf install -y fzf
-sudo dnf install -y ghostwriter
-sudo dnf install -y git
-sudo dnf install -y git-core
-sudo dnf install -y gparted
-sudo dnf install -y GraphicsMagick
-sudo dnf install -y handbrake
-sudo dnf install -y i3
-sudo dnf install -y i3blocks
-sudo dnf install -y i3lock
-sudo dnf install -y i3status
-sudo dnf install -y ImageMagick
-sudo dnf install -y inkscape
-sudo dnf install -y kalendar
-sudo dnf install -y kasts
-sudo dnf install -y kate
-sudo dnf install -y kate-plugins
-sudo dnf install -y kbackup
-sudo dnf install -y kdenlive
-sudo dnf install -y kdiff3
-sudo dnf install -y keepassxc
-sudo dnf install -y kget
-sudo dnf install -y kile
-sudo dnf install -y klavaro
-sudo dnf install -y kompare
-sudo dnf install -y krename
-sudo dnf install -y krusader
-sudo dnf install -y ksnip
-sudo dnf install -y ksysguard
-sudo dnf install -y ktextaddons
-sudo dnf install -y ktorrent
-sudo dnf install -y ktouch
-sudo dnf install -y kwave
-sudo dnf install -y l3afpad
-sudo dnf install -y libreoffice
-sudo dnf install -y libXres-devel
-sudo dnf install -y lm_sensors
-sudo dnf install -y lm_sensors-devel
-sudo dnf install -y lxappearance
-sudo dnf install -y lynx
-sudo dnf install -y materia-gtk-theme
-sudo dnf install -y meld
-sudo dnf install -y micro
-sudo dnf install -y mousepad
-sudo dnf install -y mpv
-sudo dnf install -y mupdf
-sudo dnf install -y neovim
-sudo dnf install -y netcat
-sudo dnf install -y newsboat
-sudo dnf install -y nitrogen
-sudo dnf install -y nmap
-sudo dnf install -y numlockx
-sudo dnf install -y obs
-sudo dnf install -y odt2txt
-sudo dnf install -y p7zip
-sudo dnf install -y pandoc
-sudo dnf install -y picom
-sudo dnf install -y plasma-firewall
-sudo dnf install -y plasmatube
-sudo dnf install -y qbittorrent
-sudo dnf install -y qmmp
-sudo dnf install -y qt5ct
-sudo dnf install -y ranger
-sudo dnf install -y ripgrep
-sudo dnf install -y rofi
-sudo dnf install -y scrot
-sudo dnf install -y slick-greeter
-sudo dnf install -y sxiv
-sudo dnf install -y thermald
-sudo dnf install -y thunar
-sudo dnf install -y timeshift
-sudo dnf install -y tldr
-sudo dnf install -y tlp
-sudo dnf install -y tlp-rdw
-sudo dnf install -y tmux
-sudo dnf install -y tokodon
-sudo dnf install -y ulauncher
-sudo dnf install -y unzip
-sudo dnf install -y vlc
-sudo dnf install -y w3m
-sudo dnf install -y w3m-img
-sudo dnf install -y wireshark
-sudo dnf install -y xautolock
-sudo dnf install -y xbacklight
-sudo dnf install -y xpdf
-sudo dnf install -y xrandr
-sudo dnf install -y xterm
-sudo dnf install -y yakuake
-sudo dnf install -y youtube-dl
-sudo dnf install -y yt-dlp
-sudo dnf install -y zathura
-sudo dnf install -y zathura-fish-completion
-sudo dnf install -y zathura-pdf-mupdf
-sudo dnf install -y zathura-plugins-all
+dnf install -y akregator
+dnf install -y arianna
+dnf install -y arj
+dnf install -y arp-scan
+dnf install -y audacious
+dnf install -y bat
+dnf install -y bleachbit
+dnf install -y btop
+dnf install -y calibre
+dnf install -y dmenu
+dnf install -y dolphin
+dnf install -y dracut
+dnf install -y dunst
+dnf install -y duplicity
+dnf install -y exa
+dnf install -y exif
+dnf install -y feh
+dnf install -y ffmpeg
+dnf install -y ffmpeg-devel
+dnf install -y flameshot
+dnf install -y flowblade
+dnf install -y foliate
+dnf install -y fzf
+dnf install -y ghostwriter
+dnf install -y git
+dnf install -y git-core
+dnf install -y gparted
+dnf install -y GraphicsMagick
+dnf install -y handbrake
+dnf install -y i3
+dnf install -y i3blocks
+dnf install -y i3lock
+dnf install -y i3status
+dnf install -y ImageMagick
+dnf install -y inkscape
+dnf install -y kalendar
+dnf install -y kasts
+dnf install -y kate
+dnf install -y kate-plugins
+dnf install -y kbackup
+dnf install -y kdenlive
+dnf install -y kdiff3
+dnf install -y keepassxc
+dnf install -y kget
+dnf install -y kile
+dnf install -y klavaro
+dnf install -y kompare
+dnf install -y krename
+dnf install -y krusader
+dnf install -y ksnip
+dnf install -y ksysguard
+dnf install -y ktextaddons
+dnf install -y ktorrent
+dnf install -y ktouch
+dnf install -y kwave
+dnf install -y l3afpad
+dnf install -y libreoffice
+dnf install -y libXres-devel
+dnf install -y lm_sensors
+dnf install -y lm_sensors-devel
+dnf install -y lxappearance
+dnf install -y lynx
+dnf install -y materia-gtk-theme
+dnf install -y meld
+dnf install -y micro
+dnf install -y mousepad
+dnf install -y mpv
+dnf install -y mupdf
+dnf install -y neovim
+dnf install -y netcat
+dnf install -y newsboat
+dnf install -y nitrogen
+dnf install -y nmap
+dnf install -y numlockx
+dnf install -y obs
+dnf install -y odt2txt
+dnf install -y p7zip
+dnf install -y pandoc
+dnf install -y picom
+dnf install -y plasma-firewall
+dnf install -y plasmatube
+dnf install -y qbittorrent
+dnf install -y qmmp
+dnf install -y qt5ct
+dnf install -y ranger
+dnf install -y ripgrep
+dnf install -y rofi
+dnf install -y scrot
+dnf install -y slick-greeter
+dnf install -y sxiv
+dnf install -y thermald
+dnf install -y thunar
+dnf install -y timeshift
+dnf install -y tldr
+dnf install -y tlp
+dnf install -y tlp-rdw
+dnf install -y tmux
+dnf install -y tokodon
+dnf install -y ulauncher
+dnf install -y unzip
+dnf install -y vlc
+dnf install -y w3m
+dnf install -y w3m-img
+dnf install -y wireshark
+dnf install -y xautolock
+dnf install -y xbacklight
+dnf install -y xpdf
+dnf install -y xrandr
+dnf install -y xterm
+dnf install -y yakuake
+dnf install -y youtube-dl
+dnf install -y yt-dlp
+dnf install -y zathura
+dnf install -y zathura-fish-completion
+dnf install -y zathura-pdf-mupdf
+dnf install -y zathura-plugins-all
