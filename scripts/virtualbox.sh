@@ -1,21 +1,18 @@
-#!/bins/sh
+#!/bin/sh
 
 # INSTALL DEPENDENCIES
-sudo dnf -y install @development-tools
+yes | dnf install @development-tools -y
 
-sudo dnf -y install kernel-headers kernel-devel dkms
+yes | dnf install kernel-headers kernel-devel dkms
 
 # ADD VIRTUALBOX REPO
-sudo cp ./scripts/vritualbox.repo /etc/yum.repos.d/virtualbox.repo
+cp scripts/virtualbox.repo /etc/yum.repos.d/
 
 #INSTALL VRITUALBOX
-sudo dnf install -y VirtualBox-7.0
+yes | dnf install VirtualBox-7.0 -y
 
 # INSTALL EXTENSION PACK
 cd Downloads
-wget https://download.virtualbox.org/virtualbox/7.0.8/Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack
+wget https://download.virtualbox.org/virtualbox/7.0.14/Oracle_VM_VirtualBox_Extension_Pack-7.0.14.vbox-extpack
 
-sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack
-
-# ADD USER TO VBOX GROUP
-sudo usermod -a -G vboxusers $USER
+yes | vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.14.vbox-extpack
