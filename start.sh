@@ -62,4 +62,4 @@ echo
 sh ./scripts/software-laptop.sh | tee -a "$log_file"
 #sh ./scripts/software-vm.sh | tee -a "$log_file"
 #sh ./scripts/software-desktop-kde.sh | tee -a "$log_file"
-#sh ./scripts/software-i3.sh | tee -a "$log_file"#!/bin/sh
+#sh ./scripts/i3-with-kde.sh | tee -a "$log_file"#!/bin/sh
