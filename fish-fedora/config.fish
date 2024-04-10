@@ -77,7 +77,7 @@ abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-qual
 abbr yv 'cd ~/Downloads/; yt-dlp '
 
 # PYTHON3 SERVER
-abbr web 'python3 -m http.server -b (hostname -I)'
+abbr web 'echo python3 -m http.server -b (hostname -I)'
 abbr webs '~/.local/bin/httpserv.sh'
 
 
