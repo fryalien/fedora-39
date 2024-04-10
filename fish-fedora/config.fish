@@ -12,7 +12,7 @@ set fish_color_valid_path
 
 function fish_prompt
 #    echo (prompt_pwd) "> "
-echo (set_color -o 00d3b8)"➜ " (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+echo (set_color -o 00d3b8)" ➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
 end
 
 # ALIASES
