@@ -77,9 +77,8 @@ abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-qual
 abbr yv 'cd ~/Downloads/; yt-dlp '
 
 # PYTHON3 SERVER
-abbr py 'python3 -m http.server -b '
-abbr ipw 'hostname -I'
-abbr web '~/.local/bin/httpserv.sh'
+abbr web 'python3 -m http.server -b (hostname -I)'
+abbr webs '~/.local/bin/httpserv.sh'
 
 
 # FIREWALL
