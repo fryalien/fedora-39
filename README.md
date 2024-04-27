@@ -11,7 +11,7 @@ git clone https://github.com/fryalien/fedora-39
 ```
 
 ```
-cd fedora-29
+cd fedora-39
 ```
 
 In start script enter the right user.
