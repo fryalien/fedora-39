@@ -10,10 +10,10 @@ set fish_greeting ""
 
 set fish_color_valid_path
 
-function fish_prompt
+#function fish_prompt
 #    echo (prompt_pwd) "> "
-echo (set_color -o 00d3b8)" ➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
-end
+#echo (set_color -o 00d3b8)" ➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+#end
 
 # ALIASES
 # INSTALL PACKAGES
@@ -36,7 +36,6 @@ abbr ri 'rg -i'
 abbr s 'sudo'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
-abbr no 'cd ~/MEGA/UTILS/NOTES/; micro'
 
 # INSTALLED
 abbr dla 'sudo dnf list > ~/Downloads/dnf-all-list.md'
@@ -55,8 +54,6 @@ abbr dw 'cd ~/Downloads'
 abbr dc 'cd ~/Documents'
 abbr pc 'cd ~/Pictures'
 abbr vd 'cd ~/Videos'
-abbr me 'cd ~/MEGA'
-abbr con 'cd ~/MEGA/UTILS/CONFIG'
 
 # POWER
 abbr sd 'shutdown now'
